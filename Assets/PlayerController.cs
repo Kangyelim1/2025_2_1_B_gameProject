@@ -109,7 +109,7 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("isGrounded", isGrounded);
 
         bool isFalling = !isGrounded && velocity.y < -0.1;
-        animator.SetBool("isFalling", isFalling);
+        animator.SetBool("isFalhing", isFalling);
         animator.SetBool("isLanding", isLanding);
     }
 
