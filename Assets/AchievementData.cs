@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Achivevment" , menuName = "Achiveement/Achievement Data")]
-public class AchievementData : MonoBehaviour
+public class AchievementData : ScriptableObject
 {
     public string achivevmentName;
     public string description;
